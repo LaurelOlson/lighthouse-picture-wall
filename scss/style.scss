@@ -15,13 +15,18 @@ body {
   
   .member {
     float: left;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     margin: 10px;
     padding: 6px;
 
-    #don {
+    .member_photo {
       width: 250px;
       height: 250px;
+      border-radius: 40px;
+      box-shadow: 10px 10px 5px #888888;
+    }
+
+    #don {
       background: url('../images/don_burks.jpg');
 
       &:hover {
@@ -30,8 +35,6 @@ body {
     }
 
     #monica {
-      width: 250px;
-      height: 250px;
       background: url('../images/monica.jpg');
 
       &:hover {
@@ -40,8 +43,6 @@ body {
     }
 
     #david {
-      width: 250px;
-      height: 250px;
       background: url('../images/davidvandusen.jpg');
 
       &:hover {
@@ -50,8 +51,6 @@ body {
     }
 
     #khurram {
-      width: 250px;
-      height: 250px;
       background: url('../images/khurram_virani.jpg');
 
       &:hover {
@@ -60,8 +59,6 @@ body {
     }
 
     #arvinder {
-      width: 250px;
-      height: 250px;
       background: url('../images/arvinder.jpg');
 
       &:hover {
@@ -70,8 +67,6 @@ body {
     }
 
     #arvinder {
-      width: 250px;
-      height: 250px;
       background: url('../images/arvinder.jpg');
 
       &:hover {
@@ -80,8 +75,6 @@ body {
     }
 
     #charlyne {
-      width: 250px;
-      height: 250px;
       background: url('../images/charlyne_fothergill.jpg');
 
       &:hover {
@@ -90,8 +83,6 @@ body {
     }
 
     #jeremy {
-      width: 250px;
-      height: 250px;
       background: url('../images/jeremy_shaki.jpg');
 
       &:hover {
@@ -100,8 +91,6 @@ body {
     }
 
     #landon {
-      width: 250px;
-      height: 250px;
       background: url('../images/landon.jpg');
 
       &:hover {
@@ -110,8 +99,6 @@ body {
     }
 
     #michael {
-      width: 250px;
-      height: 250px;
       background: url('../images/michael_steele.jpg');
 
       &:hover {
@@ -120,8 +107,6 @@ body {
     }
 
     #murat {
-      width: 250px;
-      height: 250px;
       background: url('../images/murat.jpg');
 
       &:hover {
@@ -130,8 +115,6 @@ body {
     }
 
     #rosy {
-      width: 250px;
-      height: 250px;
       background: url('../images/rosy.jpg');
 
       &:hover {
@@ -140,8 +123,6 @@ body {
     }
 
     #sylvia {
-      width: 250px;
-      height: 250px;
       background: url('../images/sylvia_rayner.jpg');
 
       &:hover {
@@ -150,8 +131,6 @@ body {
     }
 
     #sherman {
-      width: 250px;
-      height: 250px;
       background: url('../images/sherman.jpg');
 
       &:hover {
@@ -160,6 +139,7 @@ body {
     }
 
     div.name {
+      padding-top: 10px;
       text-align: center;  
     }
   }

@@ -8,94 +8,72 @@ body {
   clear: both; }
   #team-members .member {
     float: left;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     margin: 10px;
     padding: 6px; }
-    #team-members .member #don {
+    #team-members .member .member_photo {
       width: 250px;
       height: 250px;
+      border-radius: 40px;
+      box-shadow: 10px 10px 5px #888888; }
+    #team-members .member #don {
       background: url("../images/don_burks.jpg"); }
       #team-members .member #don:hover {
         background: url("../images/alt/don_alt.jpg"); }
     #team-members .member #monica {
-      width: 250px;
-      height: 250px;
       background: url("../images/monica.jpg"); }
       #team-members .member #monica:hover {
         background: url("../images/alt/monica_alt.jpg"); }
     #team-members .member #david {
-      width: 250px;
-      height: 250px;
       background: url("../images/davidvandusen.jpg"); }
       #team-members .member #david:hover {
         background: url("../images/alt/david_alt.jpg"); }
     #team-members .member #khurram {
-      width: 250px;
-      height: 250px;
       background: url("../images/khurram_virani.jpg"); }
       #team-members .member #khurram:hover {
         background: url("../images/alt/khurram_alt.jpg"); }
     #team-members .member #arvinder {
-      width: 250px;
-      height: 250px;
       background: url("../images/arvinder.jpg"); }
       #team-members .member #arvinder:hover {
         background: url("../images/alt/arvinder_alt.jpg"); }
     #team-members .member #arvinder {
-      width: 250px;
-      height: 250px;
       background: url("../images/arvinder.jpg"); }
       #team-members .member #arvinder:hover {
         background: url("../images/alt/arvinder_alt.jpg"); }
     #team-members .member #charlyne {
-      width: 250px;
-      height: 250px;
       background: url("../images/charlyne_fothergill.jpg"); }
       #team-members .member #charlyne:hover {
         background: url("../images/alt/charlyne_alt.jpg"); }
     #team-members .member #jeremy {
-      width: 250px;
-      height: 250px;
       background: url("../images/jeremy_shaki.jpg"); }
       #team-members .member #jeremy:hover {
         background: url("../images/alt/jeremy_alt.jpg"); }
     #team-members .member #landon {
-      width: 250px;
-      height: 250px;
       background: url("../images/landon.jpg"); }
       #team-members .member #landon:hover {
         background: url("../images/alt/landon_alt.jpg"); }
     #team-members .member #michael {
-      width: 250px;
-      height: 250px;
       background: url("../images/michael_steele.jpg"); }
       #team-members .member #michael:hover {
         background: url("../images/alt/michael_alt.jpg"); }
     #team-members .member #murat {
-      width: 250px;
-      height: 250px;
       background: url("../images/murat.jpg"); }
       #team-members .member #murat:hover {
         background: url("../images/alt/murat_alt.jpg"); }
     #team-members .member #rosy {
-      width: 250px;
-      height: 250px;
       background: url("../images/rosy.jpg"); }
       #team-members .member #rosy:hover {
         background: url("../images/alt/rosy_alt.jpg"); }
     #team-members .member #sylvia {
-      width: 250px;
-      height: 250px;
       background: url("../images/sylvia_rayner.jpg"); }
       #team-members .member #sylvia:hover {
         background: url("../images/alt/sylvia_alt.jpg"); }
     #team-members .member #sherman {
-      width: 250px;
-      height: 250px;
       background: url("../images/sherman.jpg"); }
       #team-members .member #sherman:hover {
         background: url("../images/alt/sherman_alt.jpg"); }
     #team-members .member div.name {
+      padding-top: 10px;
       text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
