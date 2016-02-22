@@ -10,12 +10,24 @@ body {
     float: left;
     /* border: 1px solid gray; */
     margin: 10px;
-    padding: 6px; }
+    padding: 6px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out; }
+    #team-members .member:nth-child(odd):hover {
+      -ms-transform: scaleX(0.95) scaleY(0.95) rotate(2deg);
+      -webkit-transform: scaleX(0.95) scaleY(0.95) rotate(2deg);
+      transform: scaleX(0.95) scaleY(0.95) rotate(2deg); }
+    #team-members .member:nth-child(even):hover {
+      -ms-transform: scaleX(1.05) scaleY(1.05) rotate(-2deg);
+      -webkit-transform: scaleX(1.05) scaleY(1.05) rotate(-2deg);
+      transform: scaleX(1.05) scaleY(1.05) rotate(-2deg); }
     #team-members .member .member_photo {
       width: 250px;
       height: 250px;
       border-radius: 40px;
-      box-shadow: 10px 10px 5px #888888; }
+      box-shadow: 10px 10px 5px #cdcfcf; }
     #team-members .member #don {
       background: url("../images/don_burks.jpg"); }
       #team-members .member #don:hover {
