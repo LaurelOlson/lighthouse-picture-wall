@@ -12,20 +12,155 @@ body {
 
 #team-members {
   clear: both;
-
+  
   .member {
     float: left;
-    /*border: 1px solid gray;*/
+    border: 1px solid gray;
     margin: 10px;
     padding: 6px;
-  }
 
-  .member img {
-    width: 200px;
-    height: 200px;
-  }
+    #don {
+      width: 250px;
+      height: 250px;
+      background: url('../images/don_burks.jpg');
 
-  .member div.name {
-    text-align: center;  
+      &:hover {
+        background: url('../images/alt/don_alt.jpg');
+      } 
+    }
+
+    #monica {
+      width: 250px;
+      height: 250px;
+      background: url('../images/monica.jpg');
+
+      &:hover {
+        background: url('../images/alt/monica_alt.jpg');
+      } 
+    }
+
+    #david {
+      width: 250px;
+      height: 250px;
+      background: url('../images/davidvandusen.jpg');
+
+      &:hover {
+        background: url('../images/alt/david_alt.jpg');
+      } 
+    }
+
+    #khurram {
+      width: 250px;
+      height: 250px;
+      background: url('../images/khurram_virani.jpg');
+
+      &:hover {
+        background: url('../images/alt/khurram_alt.jpg');
+      } 
+    }
+
+    #arvinder {
+      width: 250px;
+      height: 250px;
+      background: url('../images/arvinder.jpg');
+
+      &:hover {
+        background: url('../images/alt/arvinder_alt.jpg');
+      } 
+    }
+
+    #arvinder {
+      width: 250px;
+      height: 250px;
+      background: url('../images/arvinder.jpg');
+
+      &:hover {
+        background: url('../images/alt/arvinder_alt.jpg');
+      } 
+    }
+
+    #charlyne {
+      width: 250px;
+      height: 250px;
+      background: url('../images/charlyne_fothergill.jpg');
+
+      &:hover {
+        background: url('../images/alt/charlyne_alt.jpg');
+      } 
+    }
+
+    #jeremy {
+      width: 250px;
+      height: 250px;
+      background: url('../images/jeremy_shaki.jpg');
+
+      &:hover {
+        background: url('../images/alt/jeremy_alt.jpg');
+      } 
+    }
+
+    #landon {
+      width: 250px;
+      height: 250px;
+      background: url('../images/landon.jpg');
+
+      &:hover {
+        background: url('../images/alt/landon_alt.jpg');
+      } 
+    }
+
+    #michael {
+      width: 250px;
+      height: 250px;
+      background: url('../images/michael_steele.jpg');
+
+      &:hover {
+        background: url('../images/alt/michael_alt.jpg');
+      } 
+    }
+
+    #murat {
+      width: 250px;
+      height: 250px;
+      background: url('../images/murat.jpg');
+
+      &:hover {
+        background: url('../images/alt/murat_alt.jpg');
+      } 
+    }
+
+    #rosy {
+      width: 250px;
+      height: 250px;
+      background: url('../images/rosy.jpg');
+
+      &:hover {
+        background: url('../images/alt/rosy_alt.jpg');
+      } 
+    }
+
+    #sylvia {
+      width: 250px;
+      height: 250px;
+      background: url('../images/sylvia_rayner.jpg');
+
+      &:hover {
+        background: url('../images/alt/sylvia_alt.jpg');
+      } 
+    }
+
+    #sherman {
+      width: 250px;
+      height: 250px;
+      background: url('../images/sherman.jpg');
+
+      &:hover {
+        background: url('../images/alt/sherman_alt.jpg');
+      } 
+    }
+
+    div.name {
+      text-align: center;  
+    }
   }
 }
